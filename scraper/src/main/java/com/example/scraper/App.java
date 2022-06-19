@@ -40,7 +40,7 @@ public class App {
 
     }
 
-    //This will look at the top 1000 posts on /r/AskReddit and upload the top 3 comments from each post to my postgreSQL server
+    //This will look at the top 225 posts on /r/AskReddit and upload the top 2 comments from each post to my postgreSQL server
     private static void scrape(Connection con) throws IOException, InterruptedException, SQLException {
         ArrayList<String> titles = new ArrayList<>();
         //client
